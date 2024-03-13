@@ -1,0 +1,46 @@
+.container-p {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: end;
+    justify-items: center;
+}
+
+#introduction {
+    background-color: #DBF9FF;
+    margin: 0;
+    padding-top: 100px;
+}
+
+#introduction  img.rounded-corners {
+    border-radius: 50%;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.py-0 {
+    padding-top: 3rem !important;
+    padding-bottom: 0;
+}
+
+.pfam {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.container > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.black-h1 {
+    color: black;
+}
